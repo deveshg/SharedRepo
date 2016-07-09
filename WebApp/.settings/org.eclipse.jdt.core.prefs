@@ -1,0 +1,5 @@
+#Sat Jul 09 12:10:49 IST 2016
+org.eclipse.jdt.core.compiler.codegen.targetPlatform=1.8
+eclipse.preferences.version=1
+org.eclipse.jdt.core.compiler.source=${javac.version}
+org.eclipse.jdt.core.compiler.compliance=${javac.version}
