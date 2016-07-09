@@ -1,0 +1,28 @@
+Project Docs:
+1. UploadFile.java - backend FileUploadServlet
+2. UploadFileTest.java - unit test case for FileUploadServlet
+3. index.html - html ajax upload page
+
+
+To Run - 
+
+1. Open CMD, cd WebApp
+2. To download the required dependencies: 
+	mvn clean install -DskipTests
+4. default jetty server port is 8080, To change the port number of jetty server
+	open pom.xml uncomment following line 
+	<httpConnector><port>9090</port></httpConnector>
+	
+3. To run jetty server:  
+	mvn jetty:run
+	
+5. open browser for ajax upload
+	http://localhost:8080/
+	
+6. For Unit testing - UploadFileTest.java
+	HttpPost post = new HttpPost("http://localhost:8080/UploadFile");
+	
+To run unit testing 
+	mvn clean test 
+Expected output - prints - the path of the uploaded file.
+
