@@ -1,0 +1,35 @@
+<company>
+    <name>ABC Company</name>
+    <employees>
+        <employee>
+            <id>0</id>
+            <firstName>John</firstName>
+            <lastName>Carter</lastName>
+            <income>10.0</income>
+        </employee>
+        <employee>
+            <id>1</id>
+            <firstName>Michal</firstName>
+            <lastName>S</lastName>
+            <income>20.0</income>
+        </employee>
+        <employee>
+            <id>2</id>
+            <firstName>T</firstName>
+            <lastName>Bag</lastName>
+            <income>30.0</income>
+        </employee>
+        <employee>
+            <id>3</id>
+            <firstName>Rick</firstName>
+            <lastName>L</lastName>
+            <income>40.0</income>
+        </employee>
+        <employee>
+            <id>4</id>
+            <firstName>Donald</firstName>
+            <lastName>T</lastName>
+            <income>50.0</income>
+        </employee>
+    </employees>
+</company>
